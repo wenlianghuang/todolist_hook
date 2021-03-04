@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# todolist_hook
-=======
+
 # Redux Hooks 簡單例子: Todo List
 在redux資料流中基本上是由以下四塊區域來串連: Action -> Redux -> Store -> View
 
@@ -74,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 20210304 new file
+
