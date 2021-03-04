@@ -1,6 +1,20 @@
 
 # Redux Hooks 簡單例子: Todo List
-在redux資料流中基本上是由以下四塊區域來串連: Action -> Redux -> Store -> View
+在redux資料流中基本上是由以下四塊區域來串連: Action -> Redux -> Store -> View，以下是個別的簡單描述。
+
+### Action
+使用者透過觸發 ACTION ，來改變 STORE 中 STATE的狀態，一個 ACTION 通常包含 TYPE 和 PAYLOAD
+
+### Reducer
+REDUCER 會根據 ACTION 的 TYPE 去執行對應到的行為來改變 STORE 中 STATE 的狀態。
+
+### Sotre
+將整個 JavaScript APP 的 STATE 集中起來進行管理以及儲存的容器，會將不同 STATE 用Object Tree的方式儲存起來。
+
+### View
+當 STORE 中的 STATE 有改變的時候，會更新對應到的畫面(VIEW)。
+
+可以參考 [Redux 資料流](https://medium.com/lion-f2e/%E5%AF%A6%E4%BD%9C-%E4%BD%BF%E7%94%A8-redux-%E5%AF%A6%E4%BD%9C-todo-list-43fd1d73d4c1)
 
 # Getting Started with Create React App
 
